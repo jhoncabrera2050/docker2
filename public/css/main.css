@@ -1,0 +1,26 @@
+body {
+    background: #202020;
+    color: white;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.item{
+    padding: 2em;
+    margin: 2.5em;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin-left: 7em;
+}
+.box2{
+    margin-left: 2em;
+    margin-right: 4em;
+}

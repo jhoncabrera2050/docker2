@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Page</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <%- include("partials/navigation") %>
+
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card animated flipInY bg-dark p-3 border-secondary">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Clientes</h3>
+          </div>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Cliente1</h5>
+                <small>Jhon Joseph</small>
+              </div>
+              <p class="mb-1">dni: 727879673</p>
+              <p class="mb-1">Correo: jhonmendoza42@gmail.com</p>
+              <p class="mb-1">Estado: Soltero</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Cliente2</h5>
+                <small class="text-body-secondary">Leandro Enrique</small>
+              </div>
+              <p class="mb-1">dni: 727879673</p>
+              <p class="mb-1">Correo: feliciano@gmail.com</p>
+              <p class="mb-1">Estado: Soltero</p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Cliente3</h5>
+                <small class="text-body-secondary">Feliciano enrique</small>
+              </div>
+              <p class="mb-1">dni: 7278796234</p>
+              <p class="mb-1">Correo: juancabrera42@gmail.com</p>
+              <p class="mb-1">Estado: Soltero</p>
+            </a>
+          </div>
+        </div>
+        
+    </div>
+    
+
+    <%- include("partials/footer") %>
+  </body>
+</html>
